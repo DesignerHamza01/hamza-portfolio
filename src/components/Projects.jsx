@@ -1,8 +1,5 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import optiImg from '../assets/optihealth01.png'
-import skinvideo from '../assets/skincancer01.mp4'
-import shoeImg from '../assets/shoeverse01.png'
 
 const projects = [
   {
@@ -10,7 +7,7 @@ const projects = [
     title: 'OptiHealth — AI Eye Health App',
     desc: 'React Native + TensorFlow model for retinal disease detection. Firebase for backend and storage.',
     tech: 'React Native • Python • TensorFlow • Firebase',
-    img: optiImg,
+    img: '/projects/optihealth01.png',
     github: 'https://github.com/DesignerHamza01/OptiHealth'
   },
   {
@@ -18,7 +15,7 @@ const projects = [
     title: 'Skin Cancer Classification',
     desc: 'CNN using transfer learning on ISIC dataset for classifying dermoscopic images.',
     tech: 'TensorFlow • Transfer Learning • Data Augmentation',
-    video: skinvideo,
+    video: '/projects/skincancer01.mp4',
     github: 'https://github.com/DesignerHamza01/Skin_Cancer_Classification'
   },
   {
@@ -26,7 +23,7 @@ const projects = [
     title: 'Shoeverse — eCommerce Website',
     desc: 'Full-stack eCommerce site: React frontend, Node.js/Express backend, MongoDB database.',
     tech: 'React • Node.js • Express • MongoDB',
-    img: shoeImg,
+    img: '/projects/shoeverse01.png',
     github: 'https://github.com/DesignerHamza01/ShoeVerse'
   },
 ]
